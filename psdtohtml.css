@@ -2472,9 +2472,9 @@ main {
 @font-face {
     font-family: 'Texta';
     src: local('Texta Alt Black'), local('Texta-Alt-Black'),
-        url(fonts/TextaAltBlack/TextaAlt-Black.woff2) format('woff2'),
-        url(fonts/TextaAltBlack/TextaAlt-Black.woff) format('woff'),
-        url(fonts/TextaAltBlack/TextaAlt-Black.ttf) format('truetype');
+        url(TextaAlt-Black.woff2) format('woff2'),
+        url(TextaAlt-Black.woff) format('woff'),
+        url(TextaAlt-Black.ttf) format('truetype');
     font-weight: 900;
     font-style: normal;
   }
