@@ -187,7 +187,7 @@
 #bimage {
     max-width: 31.6vw ;
     height: 80vh ;
-    background-image: url(images/background.jpg) ;
+    background-image: url(background.jpg) ;
     background-size: cover ;
 }
 
@@ -250,7 +250,7 @@
     position: absolute ;
     top: 0 ;
     left: 12vw ;
-    background-image: url(images/worldmap1.jpeg) ;
+    background-image: url(worldmap1.jpeg) ;
     background-size: 76vw 26vh;
     font-family: 'Open Sans' ;
     font-weight: 700 ;
@@ -369,56 +369,56 @@
 #starbucks {
     width: 12vw ;
     height: 20vh ;
-    background-image: url(images/starbucks.svg) ;
+    background-image: url(starbucks.svg) ;
     background-size: 12vw 20vh;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #starbucks:hover {
-    background-image: url(images/starbuckshover.svg)
+    background-image: url(starbuckshover.svg)
 }
 #nike {
     width: 10vw ;
     height: 17vh ;
-    background-image: url(images/nike.svg) ;
+    background-image: url(nike.svg) ;
     background-size: 10vw 17vh;
     cursor: pointer ;
     background-repeat: no-repeat ;
 }
 #nike:hover {
-    background-image: url(images/nikehover.svg) ;
+    background-image: url(nikehover.svg) ;
 }
 #audi {
     width: 10vw ;
     height: 12vh ;
-    background-image: url(images/audi.svg) ;
+    background-image: url(audi.svg) ;
     background-size: cover ;
     cursor: pointer ;
 }
 #audi:hover {
-    background-image: url(images/audihover.svg) ;
+    background-image: url(audihover.svg) ;
 }
 #mcd {
     width:9vw ;
     height: 20vh ;
-    background-image: url(images/mcdonalds.svg) ;
+    background-image: url(mcdonalds.svg) ;
     background-size: 9vw 20vh;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #mcd:hover {
-    background-image: url(images/mcdonaldshover.svg) ;
+    background-image: url(mcdonaldshover.svg) ;
 }
 #vogue {
     width: 12vw ;
     height: 20vh ;
-    background-image: url(images/vogue.svg) ;
+    background-image: url(vogue.svg) ;
     background-size: 12vw 20vh;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #vogue:hover {
-    background-image: url(images/voguehover.svg) ;
+    background-image: url(voguehover.svg) ;
 }
 
 #radio {
@@ -673,10 +673,6 @@
     top: 50% ;
     padding: 1vw 1vw ;
     cursor: pointer ;
-}
-#whatpeoplesay::before:hover {
-    background-image: url(images/leftactive.jpg);
-    background-size: cover ;
 }
 
 #contactus {
@@ -1021,7 +1017,7 @@ main {
 #bimage {
     max-width: 45vw ;
     height: 80vh ;
-    background-image: url(images/background.jpg) ;
+    background-image: url(background.jpg) ;
     background-size: cover ;
 }
 
@@ -1083,7 +1079,7 @@ main {
     position: absolute ;
     top: 0 ;
     left: 12vw ;
-    background-image: url(images/worldmap1.jpeg) ;
+    background-image: url(worldmap1.jpeg) ;
     background-size: cover;
     font-family: 'Open Sans' ;
     font-weight: 700 ;
@@ -1202,56 +1198,56 @@ main {
 #starbucks {
     width: 27.5% ;
     height: 20vh ;
-    background-image: url(images/starbucks.svg) ;
+    background-image: url(starbucks.svg) ;
     background-size: cover;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #starbucks:hover {
-    background-image: url(images/starbuckshover.svg)
+    background-image: url(starbuckshover.svg)
 }
 #nike {
     width: 32% ;
     height: 20vh ;
-    background-image: url(images/nike.svg) ;
+    background-image: url(nike.svg) ;
     background-size: cover;
     cursor: pointer ;
     background-repeat: no-repeat ;
 }
 #nike:hover {
-    background-image: url(images/nikehover.svg) ;
+    background-image: url(nikehover.svg) ;
 }
 #audi {
     width: 27.5% ;
     height: 9vh ;
-    background-image: url(images/audi.svg) ;
+    background-image: url(audi.svg) ;
     background-size: cover ;
     cursor: pointer ;
 }
 #audi:hover {
-    background-image: url(images/audi.svg) ;
+    background-image: url(audi.svg) ;
 }
 #mcd {
     width: 20% ;
     height: 15vh ;
-    background-image: url(images/mcdonalds.svg) ;
+    background-image: url(mcdonalds.svg) ;
     background-size: cover;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #mcd:hover {
-    background-image: url(images/mcdonaldshover.svg) ;
+    background-image: url(mcdonaldshover.svg) ;
 }
 #vogue {
     width: 40% ;
     height: 15vh ;
-    background-image: url(images/vogue.svg) ;
+    background-image: url(vogue.svg) ;
     background-size: cover;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #vogue:hover {
-    background-image: url(images/voguehover.svg) ;
+    background-image: url(voguehover.svg) ;
 }
 
 #radio {
@@ -1484,7 +1480,7 @@ main {
 */
 #whatpeoplesay::before {
     content: "" ;
-    background-image: url(images/left.png);
+/*     background-image: url(images/left.png); */
     background-size: cover ;
     width: 1vw ;
     height: 1vw ;
@@ -1509,10 +1505,6 @@ main {
     top: 50% ;
     padding: 1vw 1vw ;
     cursor: pointer ;
-}
-#whatpeoplesay::before:hover {
-    background-image: url(images/leftactive.jpg);
-    background-size: cover ;
 }
 
 #contactus {
@@ -1859,7 +1851,7 @@ main {
 #bimage {
     max-width: 50vw ;
     height: 70vh ;
-    background-image: url(images/background.jpg) ;
+    background-image: url(background.jpg) ;
     background-size: cover ;
 }
 
@@ -1921,7 +1913,7 @@ main {
     position: absolute ;
     top: 0 ;
     left: 12vw ;
-    background-image: url(images/worldmap1.jpeg) ;
+    background-image: url(worldmap1.jpeg) ;
     background-size: 76vw 26vh;
     font-family: 'Open Sans' ;
     font-weight: 700 ;
@@ -2044,56 +2036,56 @@ main {
 #starbucks {
     width: 15% ;
     height: 5vh ;
-    background-image: url(images/starbucks.svg) ;
+    background-image: url(starbucks.svg) ;
     background-size: cover;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #starbucks:hover {
-    background-image: url(images/starbuckshover.svg)
+    background-image: url(starbuckshover.svg)
 }
 #nike {
     width: 14% ;
     height: 4vh ;
-    background-image: url(images/nike.svg) ;
+    background-image: url(nike.svg) ;
     background-size: cover;
     cursor: pointer ;
     background-repeat: no-repeat ;
 }
 #nike:hover {
-    background-image: url(images/nikehover.svg) ;
+    background-image: url(nikehover.svg) ;
 }
 #audi {
     width: 15% ;
     height: 2vh ;
-    background-image: url(images/audi.svg) ;
+    background-image: url(audi.svg) ;
     background-size: cover ;
     cursor: pointer ;
 }
 #audi:hover {
-    background-image: url(images/audihover.svg) ;
+    background-image: url(audihover.svg) ;
 }
 #mcd {
     width:12% ;
     height: 5vh ;
-    background-image: url(images/mcdonalds.svg) ;
+    background-image: url(mcdonalds.svg) ;
     background-size: cover;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #mcd:hover {
-    background-image: url(images/mcdonaldshover.svg) ;
+    background-image: url(mcdonaldshover.svg) ;
 }
 #vogue {
     width: 25% ;
     height: 5vh ;
-    background-image: url(images/vogue.svg) ;
+    background-image: url(vogue.svg) ;
     background-size: cover;
     background-repeat: no-repeat ;
     cursor: pointer ;
 }
 #vogue:hover {
-    background-image: url(images/voguehover.svg) ;
+    background-image: url(voguehover.svg) ;
 }
 
 #radio {
