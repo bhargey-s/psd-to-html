@@ -1,0 +1,2488 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+@media only screen and (min-width: 1000px) {
+    main {
+    width: 100vw ;
+    max-width: 100% ;
+    background-color: #f0f0f0 ;
+}
+
+#introduction {
+    width: 100% ;
+    padding: 6vh 8vw 8vh 8vw ; /* No change */
+}
+#frow {
+    width: 100% ; 
+    height: 8vh ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: flex-start ;
+    margin-bottom: 6vh ;
+}
+#logo {
+    width: 16vw ;
+    height: 6vh ;
+    display: flex ;
+    align-items: flex-start ;
+}
+#logo h2 {
+    color: #9d9d9d ;
+    font-size: 3.8vw ;
+    width: 100% ;
+    height: 100% ;
+    font-family: 'Texta' ; 
+}
+#git-btn {
+    width: 14vw ;
+    height: 80% ;
+    background: #f0f0f0;
+/*
+    box-shadow:  10px 10px 14px #e9e9e9, 
+             -2px -2px 6px #ffffff ;
+*/
+    box-shadow:  1px 1px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    color: #aeaeae ;
+    font-family: 'Open Sans';
+    font-weight: 500 ;
+    cursor: pointer ;
+}
+#git-btn:active, #git-btn:focus {
+    box-shadow:  inset 1px 1px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+}
+
+
+#srow {
+    width: 100% ;
+/*    height: 550px ;*/
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+}
+#intro {
+    width: 43vw ;
+}
+#intro h1{
+    width: 100% ;
+    height: 18vh ;
+    font-size: 4.7vw ;
+    font-family: 'Roboto Condensed' ;
+    margin-bottom: 8vh ;
+}
+#intro p {
+    width: 100% ;
+    height: 14vh ;
+    font-family: 'Open Sans' ;
+    font-size: 1.35vw ;
+    word-spacing: 1px ;
+    line-height: 2vw ;
+}
+
+#form {
+    height: 100% ;
+    width: 37vw ;
+    padding: 3vh 2vw;
+    border-radius: 38px;
+    background: #f0f0f0;
+/*
+    box-shadow:  5px 5px 11px #e4e4e4, 
+             -5px -5px 11px #fcfcfc;
+*/
+    box-shadow:  3px 3px 8px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+}
+#form h2 {
+    width: 25vw;
+    height: 5vh ;
+    margin-bottom: 2vh ;
+    color: #4ea6ea ;
+    font-family: 'Open Sans' ;
+    font-weight: 700 ;
+    font-size: 2vw ;
+}
+#form p {
+    width: 100% ;
+    margin-bottom: 1.95vh ; 
+    font-family: 'Open Sans' ;
+    font-size: 1.2vw ;
+}
+#form p span{
+    font-weight: bolder ;
+}
+#form div {
+    width: 100% ;
+    height: 100% ;
+    display: flex ;
+    flex-direction: column ;
+    
+}
+#form div input {
+    height: 7.75vh ;
+    padding: 2.96vh 3vw ;
+    background: #f0f0f0;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #939393 ;
+    font-size: 1.3vw ;
+    font-family: 'Open Sans' ;
+}
+#form div input:active, #form div input:focus {
+    box-shadow:  inset 3px 3px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+    outline: none ;
+}
+#form div input:last-child {
+    height: 8vh ;
+    padding: 2.7vh 3vw ;
+    background: #0686e9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+                -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #FFF ;
+    font-size: 1.3vw ;
+    font-family: 'Open Sans' ;
+    text-align: center ;
+    cursor: pointer ;
+}
+#form div input:last-child:active {
+    background: #0686e9;
+    box-shadow: inset 5px 5px 3px #045ea3, 
+                inset -5px -5px 3px #08aeff;
+    outline: none ;
+}
+
+#whoweare {
+    width: 100% ;
+    padding: 2vh 8vw 11vh 8vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+}
+#whoweare h1 {
+    width: 22vw ;
+    height: 6vh ;
+    margin-bottom: 7vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 3.8vw ;
+}
+#background {
+    width: 100% ;
+}
+#bimage {
+    max-width: 31.6vw ;
+    height: 80vh ;
+    background-image: url(images/background.jpg) ;
+    background-size: cover ;
+}
+
+#backgroundblank {
+    width: 100% ;
+}
+#content {
+    height: 60vh ;
+    padding: 5vh 3vw ;
+    position: absolute ;
+    top: 22vh ;
+    left: 20vw ;
+    background-color: #eaeaea ;
+    display: flex ;
+    justify-content: space-between ;
+}
+#para {
+    width: 36vw ;
+    height: 100% ;
+    margin-right: 4vw ;
+    font-size: 1.35vw ;
+    font-family: 'Open Sans' ;
+    color: #474747 ;
+    line-height: 4.5vh ;
+}
+#blank{
+    width: 26vw ;
+    height: 100% ;
+    background-color: #c0c0c0 ;
+}
+
+#growth {
+    width: 100% ;
+    padding: 15vh 8vw 10vh 0 ;
+    position: relative ;
+}
+#growth div:first-child {
+    width: 100% ;
+    display: flex ;
+    align-items: center ;
+    justify-content: space-between ;
+}
+#gblank {
+    max-width: 50vw ;
+    height: 78vh ;
+    background-color: #c0c0c0 ;
+    margin-right: auto ;
+}
+#gtext {
+    width: 37.5vw ;
+    height: 32vh ;
+    margin-left: auto ;
+    font-size: 1.9vw ;
+    font-family: 'Roboto Condensed' ;
+}
+
+#gpercent {
+    min-width: 76vw ;
+    height: 26vh ;
+    position: absolute ;
+    top: 0 ;
+    left: 12vw ;
+    background-image: url(images/worldmap1.jpeg) ;
+    background-size: 76vw 26vh;
+    font-family: 'Open Sans' ;
+    font-weight: 700 ;
+}
+#gpercent div h2 {
+    font-size: 35px ;
+}
+#g1 {
+    max-width: 12vw ;
+    height: 10vh ;
+    position: absolute;
+    left: 4vw ;
+    top: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#g2 {
+    max-width: 12vw ;
+    height: 14vh ;
+    position: absolute;
+    left: 22vw ;
+    top: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+}
+#g3 {
+    max-width: 12vw ;
+    height: 14vh ;
+    position: absolute;
+    left: 40vw ;
+    top: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+}
+#g4 {
+    max-width: 12vw ;
+    height: 12vh ;
+    position: absolute;
+    right: 4vw ;
+    top: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+}
+
+
+#workflow {
+    width: 100% ;
+    padding-bottom: 11.2vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#workflow h1 {
+    width: 20vw ;
+    height: 6vh ;
+    margin-bottom: 5.5vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 3.8vw ;
+}
+#workflow p {
+    width: 36vw ;
+    height: 6vh ;
+    text-align: center ;
+    font-family: 'Open Sans' ;
+    font-size: 1.35vw ;
+    margin-bottom: 5vh ;
+}
+#workflow img {
+    width: 100% ;
+    height: 71.5vh ;
+}
+
+#clients {
+    width: 100% ;
+    height: 100% ;
+    padding: 0 8vw 16vh 8vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#clients h1 {
+    width: 48vw ;
+    height: 8vh ;
+    margin-bottom: 8vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 3.8vw ;
+}
+#clients > div {
+    min-width: 100% ;
+/*    min-height: 100% ;*/
+    background-color: #FFF ;
+    padding: 6vh 3vw 5vh 3vw ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    align-items: center ;
+}
+#logos {
+    width: 100% ;
+    height: 80% ;
+    padding: 0 ;
+    margin-bottom: 1vh ;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center ;
+}
+#starbucks {
+    width: 12vw ;
+    height: 20vh ;
+    background-image: url(images/starbucks.svg) ;
+    background-size: 12vw 20vh;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#starbucks:hover {
+    background-image: url(images/starbuckshover.svg)
+}
+#nike {
+    width: 10vw ;
+    height: 17vh ;
+    background-image: url(images/nike.svg) ;
+    background-size: 10vw 17vh;
+    cursor: pointer ;
+    background-repeat: no-repeat ;
+}
+#nike:hover {
+    background-image: url(images/nikehover.svg) ;
+}
+#audi {
+    width: 10vw ;
+    height: 12vh ;
+    background-image: url(images/audi.svg) ;
+    background-size: cover ;
+    cursor: pointer ;
+}
+#audi:hover {
+    background-image: url(images/audihover.svg) ;
+}
+#mcd {
+    width:9vw ;
+    height: 20vh ;
+    background-image: url(images/mcdonalds.svg) ;
+    background-size: 9vw 20vh;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#mcd:hover {
+    background-image: url(images/mcdonaldshover.svg) ;
+}
+#vogue {
+    width: 12vw ;
+    height: 20vh ;
+    background-image: url(images/vogue.svg) ;
+    background-size: 12vw 20vh;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#vogue:hover {
+    background-image: url(images/voguehover.svg) ;
+}
+
+#radio {
+    width: 6vw ;
+    height: 5vh ;
+    display: flex ;
+    justify-content: space-between ;
+}
+.radio-btn {
+    position: relative ;
+    cursor: pointer ;
+}
+.radio-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #2196F3 ;
+}
+.radio-btn input:checked + .btn {
+    background-color: #2196F3;
+}
+
+#technology {
+    width: 100% ;
+    padding: 0 8vw 6vh 8vw;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    
+}
+#technology h1 {
+    width: 42vw ;
+    height: 8vh ;
+    margin-bottom: 5vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 3.8vw ;
+}
+#option {
+    width: 42vw ;
+    height: 6vh ;
+    margin-bottom: 6vh ;
+    display: flex ;
+}
+#option label {
+    width: 50% ;
+    height: 100% ;
+    cursor: pointer ;
+    position: relative ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+#option label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.devt {
+    min-width: 100% ;
+    min-height: 100% ;
+    margin: 0 ;
+    text-align: center ;
+    display: inline-block ;
+    border-bottom: 2px solid #000 ;
+    font-family: 'Open Sans' ;
+    color: #000 ;
+    font-size: 1.6vw ;
+    font-weight: 700 ;
+    transition: all 0.3s ;
+}
+#option label input:checked + .devt {
+    color: #2196F3 ;
+    border-bottom: 2px solid #2196F3 ;
+}
+
+#tech {
+    width: 100% ;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between ;
+}
+#tech div {
+    width: 20% ;
+    height: 20vh ;
+    margin: 0 auto 46.5px auto;
+/*    margin-bottom: 46.5px ;*/
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+}
+#tech div a {
+    min-width: 100% ;
+    min-height: 100% ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+}
+
+#tech div figcaption{
+    width: 8vw ;
+    font-size: 1.5vw ;
+    font-family: 'Open Sans' ;
+    color: #727272 ;
+    margin-top: 3vh ;
+    text-align: center ;
+}
+#angular img {
+    width: 10vw ;
+    height: 15vh ;
+}
+#sql img {
+    width: 10vw ;
+    height: 15vh ;
+}
+#vue img {
+    width: 10vw ;
+    height: 15vh ;
+}
+#android img {
+    width: 8vw ;
+    height: 15vh ;
+}
+#ios img {
+    width: 10vw ;
+    height: 15vh ;
+}
+#laravel img {
+    width: 7.5vw ;
+    height: 15vh ;
+}
+#mongodb img {
+    width: 10vw ;
+    height: 15vh ;
+}
+#mysql img {
+    width: 12vw ;
+    height: 15vh ;
+}
+#node img {
+    width: 10vw ;
+    height: 15vh ;
+}
+#swift img {
+    width: 10vw ;
+    height: 15vh ;
+} 
+#android figcaption {
+    margin-top: 1vh ;
+}
+
+#whatpeoplesay {
+    width: 100% ;
+    padding: 0 10vw 12vh 10vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+}
+#whatpeoplesay h1 {
+    width: 30vw ;
+    height: 8vh ;
+    margin-bottom: 6vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 3.8vw ;
+}
+#say {
+    width: 60vw ;
+    font-size: 1.6vw;
+    font-family: 'Open Sans' ;
+    color: #8d8d8d ;
+    margin-bottom: 4vh ;
+    text-align: center ;
+    line-height: 2.3vw ;
+}
+#people {
+    font-size: 1.3vw;
+    font-family: 'Open Sans' ;
+    color: #373737 ;
+    margin-bottom: 5.5vh ;
+}
+#swipe {
+/*    width: 10vw ;*/
+    height: 1vh ;
+    display: flex ;
+    justify-content: space-between ;
+}
+#swipe label {
+    width: 2vw ;
+    cursor: pointer ;
+    position: relative ;
+    margin-right: 1vw ;
+}
+#swipe label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.rec-btn {
+    width: 100% ;
+    min-height: 100% ;
+    display: inline-block ;
+    border-radius: 5px ;
+    transition: all 0.3s ;
+    background-color: #cbdfed ;
+}
+#swipe label input:checked + .rec-btn {
+    background-color: #2196F3 ;
+}
+
+#whatpeoplesay::before {
+    content: "" ;
+/*    background-image: url(images/is-less-than.svg);*/
+    background-size: cover ;
+    width: 1vw ;
+    height: 1vw ;
+    border-radius: 50% ;
+    box-shadow:  -3px -3px 4px #d8d8d8, 
+                3px 3px 8px #ffffff;
+    position: absolute ;
+    left: 10% ;
+    top: 50% ;
+    padding: 1vw 1vw ;
+    cursor: pointer ;
+}
+#whatpeoplesay::after {
+    content: "" ;
+    width: 1vw ;
+    height: 1vw ;
+    border-radius: 50% ;
+    box-shadow:  -3px -3px 4px #d8d8d8, 
+                3px 3px 8px #ffffff;
+    position: absolute ;
+    right: 10% ;
+    top: 50% ;
+    padding: 1vw 1vw ;
+    cursor: pointer ;
+}
+#whatpeoplesay::before:hover {
+    background-image: url(images/leftactive.jpg);
+    background-size: cover ;
+}
+
+#contactus {
+    width: 100% ;
+    padding: 3vh 8vw 0 8vw;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    background-color: #E9E9E9 ;
+}
+#contactus h1 {
+    width: 21vw ;
+    height: 8vh ;
+    margin-bottom: 6vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 3.8vw ;
+}
+#firstrow {
+    width: 100% ;
+    display: flex ;
+    margin-bottom: 2vh ;
+} 
+#firstrow > div:first-child {
+    width: 30vw ;
+    margin-right: auto ;
+    display: flex ;
+    flex-direction: column ;
+}
+#location {
+    width: 100% ;
+    display: flex ;
+    flex-direction: column ;
+    margin-bottom: 5vh ;
+}
+#location div {
+    width: 100% ;
+    height: 8vh ;
+    display: block;
+    justify-content: space-between ;
+    margin-bottom: 5vh ;
+}
+#lhead {
+    max-width: 25% ;
+    height: 100% ;
+    display: inline;
+    color: #676767 ;
+    font-family: 'Open Sans' ;
+    font-weight: bold ;
+    float: left ;
+    font-size: 1.3vw ;
+}
+#ltext {
+    max-width: 75% ;
+    height: 100% ;
+    font-family: 'Open Sans' ;
+    color: #676767 ;
+    font-size: 1.3vw;
+    display: inline ;
+    margin-left: auto ;
+}
+#location img {
+    width: 100% ;
+    height: 248px ;
+}
+#socialmedia {
+    width: 70% ;
+    display: flex ;
+    justify-content: space-between ;
+}
+#socialmedia p {
+    font-family: 'Poppins' ;
+    font-weight: 700 ;
+}
+#socialmedia img {
+    width: 10% ;
+    height: 100% ;
+}
+
+#form1 {
+    width: 35vw ;
+    margin-left: auto ;
+}
+#form1 input {
+    width: 100% ;
+    height: 9vh ;
+    padding: 3vh 3vw ;
+    background: #E9E9E9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2.5vh ;
+    color: #939393 ;
+    font-size: 1.3vw ;
+    font-family: 'Open Sans' ;
+}
+#form1 input:active, #form1 input:focus {
+    box-shadow:  inset 3px 3px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+    outline: none ;
+}
+#form1 input:last-child {
+    width: 100% ;
+    height: 9.5vh ;
+    padding: 3vh 3vw ;
+    background: #0686e9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2.5vh ;
+    color: #FFF ;
+    font-size: 1.3vw ;
+    font-family: 'Open Sans' ;
+    text-align: center ;
+    cursor: pointer ;
+}
+#form1 input:last-child:active {
+    background: #0686e9;
+    box-shadow: inset 5px 5px 3px #045ea3, 
+                inset -5px -5px 3px #08aeff;
+    outline: none ;
+}
+
+#hline {
+    width: 100% ;
+    border-top: 1px solid #000 ;
+    margin-bottom: 1vh ;
+}
+
+#footer {
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    margin-bottom: 1vh ;
+}
+#logo1 {
+    width: 10vw ;  
+    height: 50% ;
+}
+#logo1 h2 {
+    color: #9d9d9d ;
+    font-size: 30px ;
+    width: 100% ;
+    height: 100% ;
+    font-family: 'Texta' ; 
+}
+#copyright p {
+    font-family: 'Open Sans' ;
+    color: #282828 ;
+    font-size: 1vw ;
+}
+}
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 999px)  {
+main {
+    width: 100vw ;
+    max-width: 100% ;
+    background-color: #f0f0f0 ;
+}
+
+#introduction {
+    width: 100% ;
+    padding: 6vh 8vw 5vh 8vw ; /* No change */
+}
+#frow {
+    width: 100% ; 
+    height: 4vh ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: flex-start ;
+    margin-bottom: 7vh ;
+}
+#logo {
+    width: 16vw ;
+    height: 6vh ;
+    display: flex ;
+    align-items: flex-start ;
+}
+#logo h2 {
+    color: #9d9d9d ;
+    font-size: 4vw ;
+    width: 100% ;
+    height: 100% ;
+    font-family: 'Texta' ; 
+}
+#git-btn {
+    width: 18vw ;
+    height: 80% ;
+    background: #f0f0f0;
+/*
+    box-shadow:  10px 10px 14px #e9e9e9, 
+             -2px -2px 6px #ffffff ;
+*/
+    box-shadow:  1px 1px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    color: #aeaeae ;
+    font-family: 'Open Sans';
+    font-weight: 500 ;
+    cursor: pointer ;
+}
+#git-btn:active, #git-btn:focus {
+    box-shadow:  inset 1px 1px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+}
+
+
+#srow {
+    width: 100% ;
+/*    height: 550px ;*/
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+}
+#intro {
+    width: 45% ;
+}
+#intro h1{
+    width: 100% ;
+/*    height: 11vh ;*/
+    font-size: 4.7vw ;
+    font-family: 'Roboto Condensed' ;
+    margin-bottom: 3vh ;
+}
+#intro p {
+    width: 100% ;
+    height: 14vh ;
+    font-family: 'Open Sans' ;
+    font-size: 2.5vw ;
+    word-spacing: 1px ;
+    line-height: 3vw ;
+}
+
+#form {
+    height: 100% ;
+    width: 50% ;
+    padding: 2vh 3vw;
+    border-radius: 38px;
+    background: #f0f0f0;
+/*
+    box-shadow:  5px 5px 11px #e4e4e4, 
+             -5px -5px 11px #fcfcfc;
+*/
+    box-shadow:  3px 3px 8px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+}
+#form h2 {
+    width: 100% ;
+    height: 3vh ;
+    margin-bottom: 1vh ;
+    color: #4ea6ea ;
+    font-family: 'Open Sans' ;
+    font-weight: 700 ;
+    font-size: 3vw ;
+}
+#form p {
+    width: 100% ;
+    margin-bottom: 2vh ; 
+    font-family: 'Open Sans' ;
+    font-size: 2.5vw ;
+}
+#form p span{
+    font-weight: bolder ;
+}
+#form div {
+    width: 100% ;
+/*    height: 100% ;*/
+    display: flex ;
+    flex-direction: column ;
+    
+}
+#form div input {
+    height: 5vh ;
+    padding: 1.5vh 3vw ;
+    background: #f0f0f0;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #939393 ;
+    font-size: 2.5vw ;
+    font-family: 'Open Sans' ;
+}
+#form div input:active, #form div input:focus {
+    box-shadow:  inset 3px 3px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+    outline: none ;
+}
+#form div input:last-child {
+    height: 5vh ;
+    padding: 1vh 3vw ;
+    background: #0686e9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+                -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #FFF ;
+    font-size: 2.5vw ;
+    font-family: 'Open Sans' ;
+    text-align: center ;
+    cursor: pointer ;
+}
+#form div input:last-child:active {
+    background: #0686e9;
+    box-shadow: inset 5px 5px 3px #045ea3, 
+                inset -5px -5px 3px #08aeff;
+    outline: none ;
+}
+
+#whoweare {
+    width: 100% ;
+    padding: 2vh 8vw 11vh 8vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+}
+#whoweare h1 {
+    width: 100% ;
+    height: 4vh ;
+    margin-bottom: 5vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 5vw ;
+}
+#background {
+    width: 100% ;
+}
+#bimage {
+    max-width: 45vw ;
+    height: 80vh ;
+    background-image: url(images/background.jpg) ;
+    background-size: cover ;
+}
+
+#backgroundblank {
+    width: 100% ;
+}
+#content {
+    height: 68vh ;
+    padding: 3vh 4vw ;
+    position: absolute ;
+    top: 17vh ;
+    left: 20vw ;
+    background-color: #eaeaea ;
+    display: flex ;
+    justify-content: space-between ;
+}
+#para {
+    width: 45% ;
+    height: 100% ;
+    font-size: 2.5vw ;
+    font-family: 'Open Sans' ;
+    color: #474747 ;
+    line-height: 3vh ;
+}
+#blank{
+    width: 50% ;
+    height: 100% ;
+    background-color: #c0c0c0 ;
+}
+
+#growth {
+    width: 100% ;
+    padding: 10vh 8vw 6vh 0 ;
+    position: relative ;
+}
+#growth div:first-child {
+    width: 100% ;
+    display: flex ;
+    align-items: center ;
+    justify-content: space-between ;
+}
+#gblank {
+    max-width: 55% ;
+    height: 60vw ;
+    background-color: #c0c0c0 ;
+    margin-right: auto ;
+}
+#gtext {
+    width: 40% ;
+    height: 8vh ;
+    margin-left: auto ;
+    font-size: 2vw ;
+    font-family: 'Roboto Condensed' ;
+}
+
+#gpercent {
+    min-width: 76vw ;
+    height: 20vh ;
+    position: absolute ;
+    top: 0 ;
+    left: 12vw ;
+    background-image: url(images/worldmap1.jpeg) ;
+    background-size: cover;
+    font-family: 'Open Sans' ;
+    font-weight: 700 ;
+}
+#gpercent div h2 {
+    font-size: 4vw ;
+}
+#g1 {
+    max-width: 15% ;
+    height: 10vh ;
+    position: absolute;
+    left: 4vw ;
+    top: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+}
+#g2 {
+    max-width: 18% ;
+    height: 10vh ;
+    position: absolute;
+    left: 22vw ;
+    top: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+}
+#g3 {
+    max-width: 15% ;
+    height: 10vh ;
+    position: absolute;
+    left: 41vw ;
+    top: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+}
+#g4 {
+    max-width: 15% ;
+    height: 10vh ;
+    position: absolute;
+    right: 4vw ;
+    top: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+}
+
+
+#workflow {
+    width: 100% ;
+    padding-bottom: 6vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#workflow h1 {
+    width: 100% ;
+    height: 4vh ;
+    margin-bottom: 2vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 5vw ;
+}
+#workflow p {
+    width: 80% ;
+    height: 5vh ;
+    text-align: center ;
+    font-family: 'Open Sans' ;
+    font-size: 2.5vw ;
+    margin-bottom: 4vh ;
+}
+#workflow img {
+    width: 100% ;
+}
+
+#clients {
+    width: 100% ;
+    height: 100% ;
+    padding: 0 8vw 6vh 8vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#clients h1 {
+    width: 100% ;
+    height: 4vh ;
+    margin-bottom: 5vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 5vw ;
+}
+#clients > div {
+    min-width: 100% ;
+/*    min-height: 100% ;*/
+    background-color: #FFF ;
+    padding: 3vh 3vw 3vh 3vw ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    align-items: center ;
+}
+#logos {
+    width: 100% ;
+    height: 80% ;
+    padding: 0 ;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    align-items: center ;
+}
+#starbucks {
+    width: 27.5% ;
+    height: 20vh ;
+    background-image: url(images/starbucks.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#starbucks:hover {
+    background-image: url(images/starbuckshover.svg)
+}
+#nike {
+    width: 32% ;
+    height: 20vh ;
+    background-image: url(images/nike.svg) ;
+    background-size: cover;
+    cursor: pointer ;
+    background-repeat: no-repeat ;
+}
+#nike:hover {
+    background-image: url(images/nikehover.svg) ;
+}
+#audi {
+    width: 27.5% ;
+    height: 9vh ;
+    background-image: url(images/audi.svg) ;
+    background-size: cover ;
+    cursor: pointer ;
+}
+#audi:hover {
+    background-image: url(images/audi.svg) ;
+}
+#mcd {
+    width: 20% ;
+    height: 15vh ;
+    background-image: url(images/mcdonalds.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#mcd:hover {
+    background-image: url(images/mcdonaldshover.svg) ;
+}
+#vogue {
+    width: 40% ;
+    height: 15vh ;
+    background-image: url(images/vogue.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#vogue:hover {
+    background-image: url(images/voguehover.svg) ;
+}
+
+#radio {
+    width: 8vw ;
+    height: 5vh ;
+    display: flex ;
+    justify-content: space-between ;
+}
+.radio-btn {
+    position: relative ;
+    cursor: pointer ;
+}
+.radio-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2vw;
+    width: 2vw;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #2196F3 ;
+}
+.radio-btn input:checked + .btn {
+    background-color: #2196F3;
+}
+
+#technology {
+    width: 100% ;
+    padding: 0 8vw 3vh 8vw;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    
+}
+#technology h1 {
+    width: 100% ;
+    height: 4vh ;
+    margin-bottom: 4vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 5vw ;
+}
+#option {
+    width: 90% ;
+    height: 6vh ;
+    margin-bottom: 6vh ;
+    display: flex ;
+}
+#option label {
+    width: 50% ;
+    height: 100% ;
+    cursor: pointer ;
+    position: relative ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+#option label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.devt {
+    min-width: 100% ;
+    min-height: 100% ;
+    margin: 0 ;
+    text-align: center ;
+    display: inline-block ;
+    border-bottom: 2px solid #000 ;
+    font-family: 'Open Sans' ;
+    color: #000 ;
+    font-size: 2.5vw ;
+    font-weight: 700 ;
+    transition: all 0.3s ;
+}
+#option label input:checked + .devt {
+    color: #2196F3 ;
+    border-bottom: 2px solid #2196F3 ;
+}
+
+#tech {
+    width: 100% ;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between ;
+}
+#tech div {
+    width: 26% ;
+    height: 20vh ;
+    margin: 0 auto 46.5px auto;
+/*    margin-bottom: 46.5px ;*/
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+}
+#tech div a {
+    min-width: 100% ;
+    min-height: 100% ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+}
+
+#tech div figcaption{
+    width: 100% ;
+    font-size: 2.5vw ;
+    font-family: 'Open Sans' ;
+    color: #727272 ;
+    margin-top: 1vh ;
+    text-align: center ;
+}
+#angular img {
+    width: 80% ;
+    height: 15vh ;
+}
+#sql img {
+    width: 100% ;
+    height: 15vh ;
+}
+#vue img {
+    width: 100% ;
+    height: 15vh ;
+}
+#android img {
+    width: 100% ;
+    height: 17vh ;
+}
+#ios img {
+    width: 100% ;
+    height: 15vh ;
+}
+#laravel img {
+    width: 80% ;
+    height: 15vh ;
+}
+#mongodb img {
+    width: 100% ;
+    height: 15vh ;
+}
+#mysql img {
+    width: 100% ;
+    height: 15vh ;
+}
+#node img {
+    width: 100% ;
+    height: 15vh ;
+}
+#swift img {
+    width: 100% ;
+    height: 15vh ;
+} 
+#android figcaption {
+    margin-top: 1vh ;
+}
+
+#whatpeoplesay {
+    width: 100% ;
+    padding: 0 10vw 6vh 10vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+}
+#whatpeoplesay h1 {
+    width: 100% ;
+    height: 4vh ;
+    margin-bottom: 4vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 5vw ;
+}
+#say {
+    width: 90% ;
+    font-size: 3vw;
+    font-family: 'Open Sans' ;
+    color: #8d8d8d ;
+    margin-bottom: 2vh ;
+    text-align: center ;
+    line-height: 3.4vw ;
+}
+#people {
+    font-size: 2.5vw;
+    font-family: 'Open Sans' ;
+    color: #373737 ;
+    margin-bottom: 2vh ;
+}
+#swipe {
+    width: 30% ;
+    height: 1vh ;
+    display: flex ;
+/*    justify-content: space-between ;*/
+}
+#swipe label {
+    width: 10% ;
+    cursor: pointer ;
+    position: relative ;
+    margin-right: 2vw ;
+}
+#swipe label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.rec-btn {
+    width: 3vw ;
+    min-height: 100% ;
+    display: inline-block ;
+    border-radius: 5px ;
+    transition: all 0.3s ;
+    background-color: #cbdfed ;
+}
+/*
+#swipe label input:checked + .rec-btn {
+    width: 4vw ;
+    background-color: #2196F3 ;
+    margin-right: 1vw ;
+}
+*/
+#whatpeoplesay::before {
+    content: "" ;
+    background-image: url(images/left.png);
+    background-size: cover ;
+    width: 1vw ;
+    height: 1vw ;
+    border-radius: 50% ;
+    box-shadow:  -3px -3px 4px #d8d8d8, 
+                3px 3px 8px #ffffff;
+    position: absolute ;
+    left: 10% ;
+    top: 50% ;
+    padding: 1vw 1vw ;
+    cursor: pointer ;
+}
+#whatpeoplesay::after {
+    content: "" ;
+    width: 1vw ;
+    height: 1vw ;
+    border-radius: 50% ;
+    box-shadow:  -3px -3px 4px #d8d8d8, 
+                3px 3px 8px #ffffff;
+    position: absolute ;
+    right: 10% ;
+    top: 50% ;
+    padding: 1vw 1vw ;
+    cursor: pointer ;
+}
+#whatpeoplesay::before:hover {
+    background-image: url(images/leftactive.jpg);
+    background-size: cover ;
+}
+
+#contactus {
+    width: 100% ;
+    padding: 3vh 8vw 0 8vw;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    background-color: #E9E9E9 ;
+}
+#contactus h1 {
+    width: 100% ;
+    height: 4vh ;
+    margin-bottom: 5vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 5vw ;
+}
+#firstrow {
+    width: 100% ;
+    display: flex ;
+    margin-bottom: 2vh ;
+} 
+#firstrow > div:first-child {
+    width: 40% ;
+    margin-right: auto ;
+    display: flex ;
+    flex-direction: column ;
+}
+#location {
+    width: 100% ;
+    display: flex ;
+    flex-direction: column ;
+    margin-bottom: 5vh ;
+}
+#location div {
+    width: 100% ;
+/*    height: 8vh ;*/
+    display: block;
+    justify-content: space-between ;
+    margin-bottom: 1vh ;
+}
+#lhead {
+    max-width: 32% ;
+/*    height: 100% ;*/
+    display: inline;
+    color: #676767 ;
+    font-family: 'Open Sans' ;
+    font-weight: bold ;
+    float: left ;
+    font-size: 2.2vw ;
+}
+#ltext {
+    max-width: 65% ;
+/*    height: 100% ;*/
+    font-family: 'Open Sans' ;
+    color: #676767 ;
+    font-size: 2.2vw;
+    display: inline ;
+    margin-left: auto ;
+}
+#location img {
+    width: 100% ;
+/*    height: 248px ;*/
+}
+#socialmedia {
+    width: 80% ;
+    display: flex ;
+    justify-content: space-between ;
+}
+#socialmedia p {
+    font-family: 'Poppins' ;
+    font-weight: 700 ;
+}
+#socialmedia img {
+    width: 10% ;
+    height: 100% ;
+}
+
+#form1 {
+    width: 50% ;
+    margin-left: auto ;
+}
+#form1 input {
+    width: 100% ;
+    height: 5vh ;
+    padding: 1.5vh 3vw ;
+    background: #E9E9E9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #939393 ;
+    font-size: 2.5vw ;
+    font-family: 'Open Sans' ;
+}
+#form1 input:active, #form1 input:focus {
+    box-shadow:  inset 3px 3px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+    outline: none ;
+}
+#form1 input:last-child {
+    width: 100% ;
+    height: 5vh ;
+    padding: 1vh 3vw ;
+    background: #0686e9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 0vh ;
+    color: #FFF ;
+    font-size: 2.5vw ;
+    font-family: 'Open Sans' ;
+    text-align: center ;
+    cursor: pointer ;
+}
+#form1 input:last-child:active {
+    background: #0686e9;
+    box-shadow: inset 5px 5px 3px #045ea3, 
+                inset -5px -5px 3px #08aeff;
+    outline: none ;
+}
+
+#hline {
+    width: 100% ;
+    border-top: 1px solid #000 ;
+/*    margin-bottom: 1vh ;*/
+}
+
+#footer {
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    margin-bottom: 1vh ;
+}
+#logo1 {
+    width: 50% ;  
+/*    height: 50% ;*/
+}
+#logo1 h2 {
+    color: #9d9d9d ;
+    font-size: 3.5vw ;
+    width: 100% ;
+    height: 100% ;
+    font-family: 'Texta' ; 
+}
+#copyright p {
+    font-family: 'Open Sans' ;
+    color: #282828 ;
+    font-size: 1.4vw ;
+}
+}
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 599px) {
+main {
+    width: 100vw ;
+    max-width: 100% ;
+    background-color: #f0f0f0 ;
+}
+
+#introduction {
+    width: 100% ;
+    padding: 3vh 8vw 3vh 8vw ; /* No change */
+}
+#frow {
+    width: 100% ; 
+    height: 3vh ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: flex-start ;
+    margin-bottom: 6vh ;
+}
+#logo {
+    width: 40% ;
+    height: 100% ;
+    display: flex ;
+    align-items: flex-start ;
+}
+#logo h2 {
+    color: #9d9d9d ;
+    font-size: 6vw ;
+    width: 100% ;
+    height: 100% ;
+    font-family: 'Texta' ; 
+}
+#git-btn {
+    width: 50% ;
+    height: 100% ;
+    background: #f0f0f0;
+/*
+    box-shadow:  10px 10px 14px #e9e9e9, 
+             -2px -2px 6px #ffffff ;
+*/
+    box-shadow:  1px 1px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    color: #aeaeae ;
+    font-family: 'Open Sans';
+    font-weight: 500 ;
+    font-size: 4vw ;
+    cursor: pointer ;
+}
+#git-btn:active, #git-btn:focus {
+    box-shadow:  inset 1px 1px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+}
+
+
+#srow {
+    width: 100% ;
+/*    height: 550px ;*/
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#intro {
+    width: 100% ;
+    margin-bottom: 3vh ;
+}
+#intro h1{
+    width: 100% ;
+    height: 7vh ;
+    font-size: 8vw ;
+    font-family: 'Roboto Condensed' ;
+    margin-bottom: 1vh ;
+}
+#intro p {
+    width: 100% ;
+    font-family: 'Open Sans' ;
+    font-size: 3.5vw ;
+    word-spacing: 1px ;
+    line-height: 4vw ;
+}
+
+#form {
+    height: 100% ;
+    width: 100% ;
+    padding: 2vh 5vw;
+    border-radius: 38px;
+    background: #f0f0f0;
+/*
+    box-shadow:  5px 5px 11px #e4e4e4, 
+             -5px -5px 11px #fcfcfc;
+*/
+    box-shadow:  3px 3px 8px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+}
+#form h2 {
+    width: 100%;
+    height: 2.5vh ;
+    margin-bottom: 1vh ;
+    color: #4ea6ea ;
+    font-family: 'Open Sans' ;
+    font-weight: 700 ;
+    font-size: 5vw
+}
+#form p {
+    width: 100% ;
+    margin-bottom: 1.95vh ; 
+    font-family: 'Open Sans' ;
+    font-size: 3.5vw ;
+    line-height: 1.7vh ;
+}
+#form p span{
+    font-weight: bolder ;
+}
+#form div {
+    width: 100% ;
+    height: 100% ;
+    display: flex ;
+    flex-direction: column ; 
+}
+#form div input {
+    height: 4vh ;
+    padding: 1vh 3vw ;
+    background: #f0f0f0;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #939393 ;
+    font-size: 4vw ;
+    font-family: 'Open Sans' ;
+}
+#form div input:active, #form div input:focus {
+    box-shadow:  inset 3px 3px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+    outline: none ;
+}
+#form div input:last-child {
+    height: 4vh ;
+    padding: 1vh 3vw ;
+    background: #0686e9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+                -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #FFF ;
+    font-size: 4vw ;
+    font-family: 'Open Sans' ;
+    text-align: center ;
+    cursor: pointer ;
+}
+#form div input:last-child:active {
+    background: #0686e9;
+    box-shadow: inset 5px 5px 3px #045ea3, 
+                inset -5px -5px 3px #08aeff;
+    outline: none ;
+}
+
+#whoweare {
+    width: 100% ;
+    padding: 1vh 8vw 5vh 8vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+}
+#whoweare h1 {
+    width: 50% ;
+    height: 3vh ;
+    margin-bottom: 2vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 7vw ;
+}
+#background {
+    width: 100% ;
+}
+#bimage {
+    max-width: 50vw ;
+    height: 70vh ;
+    background-image: url(images/background.jpg) ;
+    background-size: cover ;
+}
+
+#content {
+    width: 70% ;
+    height: 60vh ;
+    padding: 2vh 4vw ;
+    position: absolute ;
+    top: 10vh ;
+    left: 20vw ;
+    background-color: #eaeaea ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#para {
+    width: 100% ;
+    height: 100% ;
+    font-size: 3.5vw ;
+    font-family: 'Open Sans' ;
+    color: #474747 ;
+    line-height: 2vh ;
+    margin-bottom: 2vh ;
+}
+#blank{
+    width: 100% ;
+    height: 100% ;
+    background-color: #c0c0c0 ;
+}
+
+#growth {
+    width: 100% ;
+    padding: 5vh 8vw 3vh 0 ;
+    position: relative ;
+}
+#growth div:first-child {
+    width: 100% ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#gblank {
+    max-width: 50vw ;
+    height: 30vh ;
+    background-color: #c0c0c0 ;
+    margin-right: auto ;
+}
+#gtext {
+    width: 80% ;
+    height: 8vh ;
+    margin: 2vh auto 0 auto;
+    font-size: 3vw ;
+    font-family: 'Roboto Condensed' ;
+}
+
+#gpercent {
+    min-width: 80% ;
+    height: 10vh ;
+    position: absolute ;
+    top: 0 ;
+    left: 12vw ;
+    background-image: url(images/worldmap1.jpeg) ;
+    background-size: 76vw 26vh;
+    font-family: 'Open Sans' ;
+    font-weight: 700 ;
+}
+#gpercent div h2 {
+    font-size: 4vw ;
+}
+#g1 {
+    max-width: 15% ;
+    height: 10vh ;
+    position: absolute;
+    left: 4vw ;
+    top: 1vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+    font-size: 3vw ;
+}
+#g2 {
+    max-width: 15% ;
+    height: 1vh ;
+    position: absolute;
+    left: 22vw ;
+    top: 1vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+    font-size: 3vw ;
+}
+#g3 {
+    max-width: 21% ;
+    height: 1vh ;
+    position: absolute;
+    left: 40vw ;
+    top: 1vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+    font-size: 3vw ;
+}
+#g4 {
+    max-width: 15% ;
+    height: 10vh ;
+    position: absolute;
+    right: 4vw ;
+    top: 1vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+    font-size: 3vw ;
+}
+
+
+#workflow {
+    width: 100% ;
+    padding-bottom: 11.2vh ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#workflow h1 {
+    width: 100% ;
+    height: 3vh ;
+    margin-bottom: 1vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 7vw ;
+}
+#workflow p {
+    width: 90% ;
+    height: 5.5vh ;
+    text-align: center ;
+    font-family: 'Open Sans' ;
+    font-size: 3.5vw ;
+    margin-bottom: 2vh ;
+}
+#workflow img {
+    width: 100% ;
+}
+
+#clients {
+    width: 100% ;
+/*    height: 100% ;*/
+    padding: 0 8vw 5vh 8vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#clients h1 {
+    width: 100% ;
+    height: 6vh ;
+    margin-bottom: 2vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 7vw ;
+}
+#clients > div {
+    min-width: 100% ;
+/*    min-height: 100% ;*/
+    background-color: #FFF ;
+    padding: 2vh 4vw 2vh 4vw ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    align-items: center ;
+}
+#logos {
+    width: 100% ;
+    padding: 0 ;
+    margin-bottom: 1vh ;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    align-items: center ;
+}
+#starbucks {
+    width: 15% ;
+    height: 5vh ;
+    background-image: url(images/starbucks.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#starbucks:hover {
+    background-image: url(images/starbuckshover.svg)
+}
+#nike {
+    width: 14% ;
+    height: 4vh ;
+    background-image: url(images/nike.svg) ;
+    background-size: cover;
+    cursor: pointer ;
+    background-repeat: no-repeat ;
+}
+#nike:hover {
+    background-image: url(images/nikehover.svg) ;
+}
+#audi {
+    width: 15% ;
+    height: 2vh ;
+    background-image: url(images/audi.svg) ;
+    background-size: cover ;
+    cursor: pointer ;
+}
+#audi:hover {
+    background-image: url(images/audihover.svg) ;
+}
+#mcd {
+    width:12% ;
+    height: 5vh ;
+    background-image: url(images/mcdonalds.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#mcd:hover {
+    background-image: url(images/mcdonaldshover.svg) ;
+}
+#vogue {
+    width: 25% ;
+    height: 5vh ;
+    background-image: url(images/vogue.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    cursor: pointer ;
+}
+#vogue:hover {
+    background-image: url(images/voguehover.svg) ;
+}
+
+#radio {
+    width: 10vw ;
+    height: 1vh ;
+    display: flex ;
+    justify-content: space-between ;
+}
+.radio-btn {
+    position: relative ;
+    cursor: pointer ;
+}
+.radio-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #2196F3 ;
+}
+.radio-btn input:checked + .btn {
+    background-color: #2196F3;
+}
+
+#technology {
+    width: 100% ;
+    padding: 0 8vw 5vh 8vw;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    
+}
+#technology h1 {
+    width: 100% ;
+    height: 3vh ;
+    margin-bottom: 2vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 7vw ;
+}
+#option {
+    width: 100% ;
+    height: 2vh ;
+    margin-bottom: 3vh ;
+    display: flex ;
+}
+#option label {
+    width: 50% ;
+    cursor: pointer ;
+    position: relative ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+#option label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.devt {
+    min-width: 100% ;
+    min-height: 100% ;
+    margin: 0 ;
+    text-align: center ;
+    display: inline-block ;
+    border-bottom: 1px solid #000 ;
+    font-family: 'Open Sans' ;
+    color: #000 ;
+    font-size: 3vw ;
+    font-weight: 700 ;
+    transition: all 0.3s ;
+}
+#option label input:checked + .devt {
+    color: #2196F3 ;
+    border-bottom: 1px solid #2196F3 ;
+}
+
+#tech {
+    width: 100% ;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between ;
+}
+#tech div {
+    width: 40% ;
+    margin: 0 auto 2.5vh auto;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+}
+#tech div a {
+    min-width: 100% ;
+    min-height: 100% ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+}
+
+#tech div figcaption{
+    width: 100% ;
+    font-size: 1.16pvw ;
+    font-family: 'Open Sans' ;
+    color: #727272 ;
+    margin-top: 1vh ;
+    text-align: center ;
+}
+#angular img {
+    width: 100% ;
+    height: 10vh ;
+}
+#sql img {
+    width: 100% ;
+    height: 10vh ;
+}
+#vue img {
+    width: 80% ;
+    height: 10vh ;
+}
+#android img {
+    width: 100% ;
+    height: 10vh ;
+}
+#ios img {
+    width: 100% ;
+    height: 10vh ;
+}
+#laravel img {
+    width: 80% ;
+    height: 10vh ;
+}
+#mongodb img {
+    width: 100% ;
+    height: 10vh ;
+}
+#mysql img {
+    width: 100% ;
+    height: 10vh ;
+}
+#node img {
+    width: 100% ;
+    height: 10vh ;
+}
+#swift img {
+    width: 100% ;
+    height: 10vh ;
+} 
+#android figcaption {
+    margin-top: 1vh ;
+}
+
+#whatpeoplesay {
+    width: 100% ;
+    padding: 0 10vw 5vh 10vw ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+#whatpeoplesay h1 {
+    width: 100% ;
+    height: 3vh ;
+    margin-bottom: 2vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 7vw ;
+}
+#say {
+    width: 90% ;
+    font-size: 3.5vw;
+    font-family: 'Open Sans' ;
+    color: #8d8d8d ;
+    margin-bottom: 2vh ;
+    text-align: center ;
+    line-height: 4vw ;
+}
+#people {
+    font-size: 3vw;
+    font-family: 'Open Sans' ;
+    color: #373737 ;
+    margin-bottom: 2vh ;
+}
+#swipe {
+    width: 50% ;
+    height: 0.5vh ;
+    display: flex ;
+    justify-content: space-between ;
+}
+#swipe label {
+    width: 20% ;
+    cursor: pointer ;
+    position: relative ;
+    margin-right: 2vw ;
+}
+#swipe label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.rec-btn {
+    width: 100% ;
+    min-height: 100% ;
+    display: inline-block ;
+    border-radius: 5px ;
+    transition: all 0.3s ;
+    background-color: #cbdfed ;
+}
+/*
+#swipe label input:checked + .rec-btn {
+    width: 4vw ;
+    background-color: #2196F3 ;
+    margin-right: 1vw ;
+}
+*/
+
+#contactus {
+    width: 100% ;
+    padding: 2vh 8vw 0 8vw;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    background-color: #E9E9E9 ;
+}
+#contactus h1 {
+    width: 100% ;
+    height: 3vh ;
+    margin-bottom: 2vh ;
+    text-align: center ;
+    font-family: 'Roboto Condensed' ;
+    font-size: 7vw ;
+}
+#firstrow {
+    width: 100% ;
+    display: flex ;
+    flex-direction: column ;
+    margin-bottom: vh ;
+} 
+#firstrow > div:first-child {
+    width: 100% ;
+    margin-right: auto ;
+    display: flex ;
+    flex-direction: column ;
+}
+#location {
+    width: 100% ;
+    display: flex ;
+    flex-direction: column ;
+    margin-bottom: 5vh ;
+}
+#location div {
+    width: 100% ;
+    height: 3vh ;
+    display: block;
+    justify-content: space-between ;
+    margin-bottom: 2vh ;
+}
+#lhead {
+    max-width: 20% ;
+    display: inline;
+    color: #676767 ;
+    font-family: 'Open Sans' ;
+    font-weight: bold ;
+    float: left ;
+    font-size: 3vw ;
+}
+#ltext {
+    max-width: 80% ;
+    font-family: 'Open Sans' ;
+    color: #676767 ;
+    font-size: 3vw;
+    display: inline ;
+    margin-left: auto ;
+}
+#location img {
+    width: 100% ;
+}
+#socialmedia {
+    width: 70% ;
+    display: flex ;
+    justify-content: space-between ;
+    margin-bottom: 2vh ;
+}
+#socialmedia p {
+    font-weight: bold ;
+    font-family: 'Poppins' ;
+}
+#socialmedia img {
+    width: 10% ;
+    height: 100% ;
+}
+
+#form1 {
+    width: 100% ;
+}
+#form1 input {
+    width: 100% ;
+    height: 4vh ;
+    padding: 1vh 3vw ;
+    background: #E9E9E9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #939393 ;
+    font-size: 4vw ;
+    font-family: 'Open Sans' ;
+}
+#form1 input:active, #form1 input:focus {
+    box-shadow:  inset 3px 3px 4px #d8d8d8, 
+                 inset -3px -3px 8px #ffffff;
+    outline: none ;
+}
+#form1 input:last-child {
+    width: 100% ;
+    height: 4vh ;
+    padding: 1vh 3vw ;
+    background: #0686e9;
+    box-shadow:  3px 3px 4px #d8d8d8, 
+             -3px -3px 8px #ffffff;
+    border-radius: 50px ;
+    border: 0 ;
+    margin-bottom: 2vh ;
+    color: #FFF ;
+    font-size: 4vw ;
+    font-family: 'Open Sans' ;
+    text-align: center ;
+    cursor: pointer ;
+}
+#form1 input:last-child:active {
+    background: #0686e9;
+    box-shadow: inset 5px 5px 3px #045ea3, 
+                inset -5px -5px 3px #08aeff;
+    outline: none ;
+}
+
+#hline {
+    width: 100% ;
+    border-top: 1px solid #000 ;
+    margin-bottom: 1vh
+}
+
+#footer {
+    width: 100% ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+}
+#logo1 {
+    width: 50% ; 
+    margin-bottom: 1vh ;
+}
+#logo1 h2 {
+    color: #9d9d9d ;
+    font-size: 5vw ;
+    width: 100% ;
+    height: 100% ;
+    font-family: 'Texta' ; 
+}
+#copyright {
+    width: 100% ;
+}
+#copyright p {
+    width: 100% ;
+    font-family: 'Open Sans' ;
+    color: #282828 ;
+    font-size: 2.8vw ;
+}
+}
+
+/* Fonts*/
+@font-face {
+    font-family: 'Texta';
+    src: local('Texta Alt Black'), local('Texta-Alt-Black'),
+        url(fonts/TextaAltBlack/TextaAlt-Black.woff2) format('woff2'),
+        url(fonts/TextaAltBlack/TextaAlt-Black.woff) format('woff'),
+        url(fonts/TextaAltBlack/TextaAlt-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
